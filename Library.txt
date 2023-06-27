@@ -1,0 +1,48 @@
+Talbe 1: People
+
+id(key)
+name
+sex
+phoneNum
+address
+birthday
+------------------
+Table 2: Reader
+
+id(key)
+idAccount
+account
+password
+dayRegister
+email
+timeLimit_card
+-------------------
+Table 3: Librian
+
+id(key)
+idPersonel
+worktime
+-------------------
+Table 4: Author
+
+id(key)
+idAuthor
+pseudonym
+-------------------
+Table 5: Book
+
+id(key)
+name
+genre
+dayPublish
+publishHouse
+author
+language
+rePrint
+-------------------
+Table 6: BookManage
+
+id(key)
+dayBorrow
+dayReturn
+delayReturn
